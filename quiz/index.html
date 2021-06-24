@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz GKV Lurde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        alert("HARAP DIBACA !!! * Setiap satu soal diberi waktu 180 detik")
+    </script>
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="col-md-6">
+                    <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                    <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                    <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                </div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <div style="text-align: center;">
+        <a href="../index.html" style="text-decoration: none;"><h4 style="background-color: black;text-align: center;display: inline;padding: 6px;border-radius: 20px;color: white">Back to Home</h4></a>
+        <button onClick="window.location.reload();" style="border: none;background-color: orange;text-align: center;display: inline;padding: 6px;border-radius: 20px;color: white;font-size: 20px;font-family:monospace;font-weight: 600">Mulai Lagi</button>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

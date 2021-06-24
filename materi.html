@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <title>Media Pembelajaran GKV</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h4>GKV<span>Lurde</span></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
+              <li class="scroll-to-section"><div class="main-red-button"><a href="assets\images\OutputPrimitive.pptx" download>Download Materi (PPT)</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+            <h2><em>Output</em><span> Primitif</span></h2>
+            <p>
+              Output/Grafis primitif adalah bentuk geometri dasar yang dapat digunakan untuk membentuk obyek yang lebih komplek. Dengan memasukkan output primitif tersebut sebagai stuktur yang lebih kompleks. Setiap output primitif mempunyai data koordinat dan informasi lain tentang bagaimana cara object ditampilkan pada layar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="jelas mb-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Titik dan Garis
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body" style="text-align: justify;">
+                  <b>Titik</b> merupakan satuan gambar/grafis yang terkecil. Dengan menggambar titik maka kita dapat menggambar obyek apapun. Termasuk bentuk geometri dibawah merupakan bentuk –bentuk yang pada dasarnya berasal dari titik-titik. Operasi titik ini sering digunakan pada pengolahan citra (Image processing). Setiap titik pada monitor memiliki parameter :koordinat dan warna. 
+                  <br><br>
+                  <b>Garis</b> adalah kumpulan titik-titik/pixel yang tersusun secara lurus dan linier dari titik awal sampai titik akhir.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Algoritma pembentukan garis
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  Persamaan garis menurut koordinat Cartesian adalah : <br>
+                  y = m.x+b <br>
+                  dimana m adalah slope (kemiringan) dari garis yang dibentuk oleh dua titik yaitu (x1, y1) dan (x2, y2). Untuk penambahan x sepanjang garis yaitu dx akan mendapatkan
+                  penambahan y sebesar : y = m. x
+                  <div class="accordion pt-3" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Algoritma garis DDA
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          DDA adalah algoritma pembentukan garis berdasarkan perhitungan x dan y,
+                          menggunakan rumus y = m. x. Garis dibuat dengan menentukan dua endpoint yaitu
+                          titik awal dan titik akhir. Setiap koordinat titik yang membentuk garis diperoleh dari
+                          perhitungan, kemudian dikonversikan menjadi nilai integer. 
+                          <br>
+                          Langkah-langkah pembentukan menurut algoritma DDA, yaitu :
+                          <ul class="pt-2">
+                            <li>1. Tentukan dua titik yang akan dihubungkan.</li>
+                            <li>2. Tentukan salah satu titik sebagai titik awal (x0, y0) dan titik akhir (x1, y1).</li>
+                            <li>3. Hitung &#916;x = x1 - x0 dan &#916;y = y1 - y0.</li>
+                            <li>4. Tentukan step, yaitu jarak maksimum jumlah penambahan nilai x maupun nilai y dengan cara :
+                              <br>
+                              <p>&#8195;- bila nilai |&#916;y| > |&#916;x| maka step = nilai |&#916;y|.</p>
+                              <p>&#8195;-bila tidak maka step = |&#916;x|.</p>
+                            </li>
+                            <li>5. Hitung penambahan koordinat pixel yaitu x_increment = &#916;x / step dan y_increment = &#916;y / step.</li>
+                            <li>6. Koordinat selanjutnya (x+x_incerement, y+y_increment).</li>
+                            <li>7. Posisi pixel pada layer ditentukan dengan pembulatan nilai koordinasi tersebut.</li>
+                            <li>8. Ulangi step 6 dan 7 untuk menentukan posisi pixel selanjutnya, sampai x = x1 dan y = y1 .</li>
+                          </ul>
+                          <p class="pt-4"><b>Contoh :</b></p>
+                          Untuk menggambarkan algoritma DDA dalam pembentukan suatu garis yang
+                          menghubungkan titik (10,10) dan (17,16), pertama-tama ditentukan dx dan dy, kemudian dicari step untuk mendapatkan x_increment dan y_increment. <br>
+                          <p class="pt-3 pb-3">
+                            &#916;x = x1 - x0 = 17-10 = 7 <br>
+                            &#916;y = y1 - y0 = 16 -10 = 6 <br>
+                            selanjutnya hitung dan bandingkan nilai absolutnya. <br>
+                            |&#916;x| = 7 <br>
+                            |&#916;y| = 6 <br>
+                            karena |&#916;x| > |&#916;y|, maka step = |&#916;x| = 7, maka diperoleh : <br>
+                            x_inc = 7/7= 1 <br>
+                            y_inc = 6/7 = 0,86
+                          </p>
+                          <img src="assets/images/dda1.png" alt="tabel DDA" style="width: 350px">
+                          <img src="assets/images/dda2.png" alt="tabel DDA" style="width: 280px">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Algoritma Garis Bressenhem
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                         Prosedur untuk menggambar kembali garis dengan membulatkan nilai x atau y 
+                         kebilangan integer membutuhkan waktu, serta variable x,y dan m merupakan bilangan 
+                         real karena kemiringan merupakan nilai pecahan. <br>
+                         Bressenham mengembangkan algoritma klasik yang lebih menarik, karena hanya menggunakan perhitungan 
+                         matematika dengan bilangan integer. Dengan demikian tidak perlu membulatkan nilai 
+                         posisi setiap pixel setiap waktu. Algoritma garis Bressenhem disebut juga midpoint line 
+                         algorithm adalah algoritma konversi penambahan nilai integer yang juga dapat 
+                         diadaptasi untuk menggambar sebuah lingkaran. <br>
+                         <ul class="pt-3">
+                          Langkah-langkah untuk membentuk garis menurut algoritma ini adalah : 
+                          <li class="pt-2">1. Tentukan dua titik yang akan dihubungkan dalam pembentukan garis.</li>
+                          <li>2. Tetukan salah satu titik disebelah kiri sebagai titik awal (x<sub>0</sub>, y<sub>0</sub> ) dan titik lainnya 
+                            sebagai titik akhir (x<sub>1</sub>, y<sub>1</sub> ).</li>
+                            <li>3. Hitung &#916;x, &#916;y, 2&#916;x, dan 2&#916;y – 2&#916;x.</li>
+                            <li>4. Hitung parameter p<sub>0</sub> = 2&#916;y – &#916;x.</li>
+                            <li>5. Untuk setiap X<sub>k</sub> sepanjang jalur garis, dimulai dengan k = 0 <br>
+                             &#8195;- bila p<sub>k</sub> < 0 maka titik selanjutnya (x<sub>k</sub>+1, y<sub>k</sub>) dan p<sub>k</sub>+1 = p<sub>k</sub> + 2&#916;y <br>
+                             &#8195;-bila tidak maka titik selanjutnya adalah (x<sub>k</sub> + 1, y<sub>k</sub> + 1)dan 
+                             p<sub>k</sub>+1 = p<sub>k</sub> + 2&#916;y – 2&#916;x.</li>
+                             <li>6. Ulangi langkah nomor 5 untuk menentukan posisi pixel selanjutnya, sampai x = 
+                               x<sub>1</sub> dan y = y<sub>k</sub>.</li>
+                             </ul>
+                             <p class="pt-4"><b>Contoh :</b></p>
+                             <p class="pt-3 pb-3">
+                              Untuk menggambarkan algoritma Bressenham dalam pembentukan suatu garis yang 
+                              menghubungkan titik (10,10) dan (17,16), pertama-tama ditentukan bahwa titik (10,10) 
+                              berada disebelah kiri merupakan titik awal, sedangkan (17,16) merupakan titik akhir. 
+                              Posisi yang membentuk garis dapat ditentukan dengan perhitungan sebagai berikut :<br> 
+                              &#8195;- &#916;x = x1 – x0 dan &#916;y = y1 – y0 <br>
+                              &#8195;&#916;x = 7 dan &#916;y = 6 <br>
+                              &#8195;- parameter p0 = 2&#916;y – &#916;x<br> 
+                              &#8195;p0 = 5 <br>
+                              &#8195;- increment <br>
+                              &#8195;2&#916;y = 12  &#8195;2&#916;y – 2&#916;x = -2
+                            </p>
+
+                            <img src="assets/images/output_primitif1.jpg" alt="Output primitif" style="width: 350px">
+                            <img src="assets/images/output_primitif2.jpg" alt="Output primitif" style="width: 280px">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Algoritma Pembentukan Lingkaran
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Pada umumnya, lingkaran digunakan sebagai komponen dari suatu gambar. Prosedur 
+                   untuk menampilkan lingkaran dan elips dibuat dengan persamaan dasar dari lingkaran 
+                   x<sup>2</sup>
+                   +y<sup>2</sup>
+                   =r<sup>2</sup>
+                   . 
+                   Lingkaran adalah kumpulan dari titik-titik yang memiliki jarak dari titik pusat yang sama 
+                   untuk semua titik. Lingkaran dibuat dengan menggambarkan seperempat lingkaran, 
+                   karena bagian lain dapat dibuat sebagai bagian yang simetris. Penambahan x dapat 
+                   dilakukan dari 0 ke r sebesar unit step, yaitu menambahkan ± y untuk setiap step.
+
+                   <p class="pt-4"><b>Simetris Delapan Titik</b></p>
+                   Proses pembuatan lingkaran dapat dilakukan dengan menentukan satu titik awal. Bila 
+                   titik awal pada lingkaran (x,y), maka terdapat tiga posisi lain, sehingga dapat diperoleh 
+                   delapan titik.<br> Dengan demikian, hanya diperlukan untuk menghitung segmen 45o
+                   dalam menentukan lingkaran selengkapnya. Delapan titik simetris, yaitu : 
+
+                   <ul class="pt-2">
+                     <li>Kuadran I (x,y),(y,x)</li>
+                     <li>Kuadran II (-x,y),(-y,x)</li>
+                     <li>Kuadran III (-x,-y),(-y-x)</li>
+                     <li>Kuadran IV (x,-y),(y,-x)</li>
+                   </ul> <br>
+                   Algoritma lingkaran midpoint disebut juga algoritma lingkaran Bressenham. Algoritma 
+                   yang digunakan membentuk semua titik berdasarkan titik pusat dengan penambahan 
+                   semau jalur disekeliling lingkaran. Dalam hal ini hanya diperhatikan bagian 45<sup>o</sup>
+                   dari 
+                   suatu lingkaran, yaitu oktan kedua dari x = 0 ke x = R/&radic;2, dan menggunakan prosedur 
+                   circle point untuk menampilkan titik dari seluruh lingkaran.
+                   <br>
+                   <br>
+                   <img src="assets/images/lingkaran1.png " alt="Output primitif" style="width: 500px">
+                   <br><br>
+                   Fungsi lingkaran menggambarkan posisi midpoint antara pixel yang terdekat dengan 
+                   jalur lingkaran setiap step. Fungsi lingkaran menentukan parameter pada algoritma 
+                   lingkaran. <br><br>
+                   Langkah-langkah pembentukan lingkaran :
+                   <ul class="pt-2">
+                    <li>1. Tentukan radius r dengan titik pusat lingkaran (x<sub>c</sub>,y<sub>c</sub>) kemudian diperoleh (x<sub>c</sub>,y<sub>c</sub>) 
+                    = 0,r). </li>
+                    <li>2. Hitung nilai dari parameter 
+                      P<sub>0</sub> = 5/4–r &asymp; 1-r. </li>
+                      <li>3. Tentukan nilai awal k = 0, untuk setiap posisi x<sub>k</sub> berlaku sbb : <br>
+                       &#8195;* Bila p<sub>k</sub> < 0, maka titik selanjutnya adalah (x<sub>k</sub>+1,y<sub>k</sub>) 
+                       P<sub>k</sub>+1 = p<sub>k</sub> +2 x<sub>k+1</sub> + 1
+                       &#8195;* Bila p<sub>k</sub> >0, maka titik selanjutnya adalah (x<sub>k</sub> + 1,y<sub>k</sub>-1)
+                       P<sub>k</sub>+1 = p<sub>k</sub> + 2X<sub>k+1</sub>+1 - 2 y<sub>k+1</sub>
+                       Dimana 2 x<sub>k+1</sub> = 2 x<sub>k</sub> + 2 dan 2 y<sub>k+1</sub> = 2 y<sub>k</sub> – 2. 
+                     </li>
+                     <li>4. Tentukan titik simetris pada ketujuh oktan yang lain.</li>						
+                     <li>5. Gerakkan setiap posisi pixel (x,y) pada garis melingkar dari lingkaran dengan 
+                      titik pusat (x<sub>c</sub>,y<sub>c</sub>) dan tentukan nilai koordinat : 
+                      x= x + x<sub>c</sub> dan y = y + y<sub>c</sub>.</li>
+                      <li>6. Ulangi langkah ke 3 -5, sampai dengan x>=y.</li>
+                    </ul>
+                    <p class="pt-4 pb-2"><b>Contoh :</b></p>
+                    Untuk menggambarkan algoritma Bressenham dalam pembentukan suatu lingkaran 
+                    dengan titik pusat (0,0) dan radius 10, perhitungan berdasarkan pada oktan dari 
+                    kuadran pertama dimana x =0 sampai x =y. <br><br>
+                    <b>Penyelesaian : </b><br><br>
+                    <ul>
+                      <li>* (x<sub>0</sub>,y<sub>0</sub>) =(0,0) r = 10</li>
+                      <li>* (x<sub>0</sub>,y<sub>0</sub>) = (0,10) &#8195; 2x<sub>0</sub> = 0, 2y<sub>0</sub> = 20</li> 
+                      <li>* parameter p<sub>0</sub> = 1-r <br>
+                        p<sub>0</sub> = -9</li>
+                      </ul>
+                      <br><br>
+                      <img src="assets/images/lingkaran2.jpg" alt="Tabel Output primitif" style="width: 350px">
+                      <img src="assets/images/lingkaran3.jpg" alt="Tabel Output primitif" style="width: 150px">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact" class="contact-us section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+              <div class="section-heading">
+                <h2>Feel Free To Send Us a Message About Grafikom</h2>
+                <p>Jika ingin berdiskusi terkait materi Grafika Komputer dan Visualisasi jangan ragu hubungi kami :)</p>
+                <div class="phone-info">
+                  <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="https://wa.me/6285156642756?text=Hallo GKV Lurde">+62 851 5664 2756</a></span></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6592158730614!2d107.71608571450011!3d-6.931273169772101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c329d1e69915%3A0xb30b9b6e10ddc5f4!2sFakultas%20Sains%20dan%20Teknologi%20UIN%20Bandung!5e0!3m2!1sid!2sid!4v1623131512567!5m2!1sid!2sid" width="100%" height="400" style="border:3px solid #fff;padding: 2px;border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+              <p>© Copyright 2021 GKV Lurde. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Scripts -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/owl-carousel.js"></script>
+      <script src="assets/js/animation.js"></script>
+      <script src="assets/js/imagesloaded.js"></script>
+      <script src="assets/js/templatemo-custom.js"></script>
+
+    </body>
+    </html>
