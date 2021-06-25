@@ -76,9 +76,8 @@
 
 <table>
     <tr>
-        <td><strong>     Splash Screen          </strong></td>
-        <td><strong>  Top Layout     </strong></td>
-      <td> <strong>      Bottom Layout</strong> </td>
+        <td><strong>     Web Apps          </strong></td>
+        <td><strong>  Android Apps     </strong></td>
     </tr>
     <tr>
         <td>
@@ -90,11 +89,6 @@
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <img src="images/top_layout.png" alt="Logo" width="350" height="546.5">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      </td>
-      <td>
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <img src="images/bottom_layout_crop.png" alt="Logo" width="350" height="546.5">
-        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </td>
     </tr>
 </table>
