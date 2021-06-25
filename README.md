@@ -138,13 +138,13 @@ You can follow this [demo](https://youtu.be/ERyjl43uAzk)
 
 
 <!-- CONTACT -->
-## Contact
+## Our Team
 
-Dimas Surya Prayitna - [LinkedIn](https://www.linkedin.com/in/auboktav/)  <br>
-Fadli Alfa Rizki - [LinkedIn](https://www.linkedin.com/in/hendra-lingga-wijaya-955b80207/)  <br>
-Fauzi Rizky Utama - [LinkedIn](https://www.linkedin.com/in/lenyarinda/)  <br>
-M Rifqi Azkiya J - [LinkedIn](https://www.linkedin.com/in/mrazkiya/)  <br>
-Rifqi Fajri Abdullah - [LinkedIn](http://www.linkedin.com/in/rudiharyanto/) <br>
+Dimas Surya Prayitna - 1187050026 <br>
+Fadli Alfa Rizki - 1187050029 <br>
+Fauzi Rizky Utama - 1187050031  <br>
+M Rifqi Azkiya J - 1187050056 <br>
+Rifqi Fajri Abdullah - 1187050090 <br>
 
 Project Link: [https://github.com/mrazkiya/gkv-lurde](https://github.com/mrazkiya/gkv-lurde)
 
