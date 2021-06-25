@@ -82,12 +82,12 @@
     <tr>
         <td>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <img src="assets/web.jpg" alt="Logo" width="350" height="546.5">
+          <img src="assets/web.JPG" alt="Logo" width="350" height="546.5">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         </td>
         <td>
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <img src="assets/androud.jpg" alt="Logo" width="350" height="546.5">
+          <img src="assets/android.jpg" alt="Logo" width="350" height="546.5">
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </td>
     </tr>
