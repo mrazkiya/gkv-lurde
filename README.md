@@ -25,19 +25,19 @@
     <img src="images/icon.png" alt="Logo" width="200" height="200">
   </a>
 
-  <h3 align="center">Rust Detector</h3>
+  <h3 align="center">Media Pembelajaran</h3>
 
   <p align="center">
-    Making rust detection easy since 2021! [ Bangkit Capstone Project ]
+    Making your learn easier
     <br />
-    <a href="https://github.com/windaangellina/RustDetector"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mrazkiya/gkv-lurde/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtu.be/ERyjl43uAzk">View Demo</a>
+    <a href="https://youtu.be/6pdZGNVzaKw">View Demo (Media Pembelajaran)</a>
     ·
+    <a href="https://youtu.be/6pdZGNVzaKw">View Demo (AR)</a>
+    .
     <a href="https://github.com/windaangellina/RustDetector/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/windaangellina/RustDetector/issues">Request Feature</a>
   </p>
 </p>
 
@@ -99,34 +99,34 @@
     </tr>
 </table>
     
-Corrosion is one of the most common causes of structural failure. Based on research and statistical data, 42% of structural failures were due to corrosion in all forms (general corrosion, pitting corrosion, corrosion in the gaps, stress corrosion cracking, corrosion fatigue, and so on) therefore knowing corrosion as early as possible is the best preventive measure to prevent structural failure.
-
-The conventional method to check for corrosion is by bare and unaided eyes which unfortunately is a time-consuming and ineffective process. This is especially true when the situation requires us to check locations that are difficult to reach such as holes and tanks in ships or a high bridge. The cost for hiring manpowers to do this makes this method all the more painful to do. The alternative is by using vendor service which is considerably expensive, averaging on $400 per basic test.
-
-This is our background of why we want to create a corrosion detection system. Our big dream is to apply this model to the drone so corrosion detection in difficult areas is much easier but for now, we will apply it to the android app first.
+Pada kesempatan kali ini kami membuat dua aplikasi media pembelajaran, yang pertama adalah web yang berisikan pembelajaran tentang Output primitif garis dan lingkaran berbasis web. Terdapat beberapa key features seperti download ppt, kuis pemahaman, dll. Kemudian untuk media selanjutnya adalah aplikasi ar berbasis android yang bertemakan belajar huruf hijaiyah dimana pada aplikasi tersebut terdapat pengenalan huruf disertai dengan audionya masing-masing.
 
 
 ### Built With
 
-* [Android Studio](https://developer.android.com)
-* [Firebase](https://firebase.google.com)
-* [Google Cloud Platform](https://cloud.google.com)
-* [Kotlin Programming Language](https://kotlinlang.org)
-* [Python Programming Language](https://www.python.org/)
-* [Flask Framework](https://flask.palletsprojects.com/)
-* [Nginx](https://www.nginx.com/)
+* [Unity](https://unity.com/)
+* [Blender](https://www.blender.org/)
+* [HTML5](https://cloud.google.com)
+* [PHP Programming Language](https://www.php.net/)
+* [JavaScript](https://www.javascript.com/)
 
 
 
 ### Prerequisites
 
-1. Android 5.0 Lollipop (minimum API level 21)
-2. Internet Connection
+1. Android 5.0 Lollipop (Android Apps)
+2. Internet Connection (Web Apps)
 
 ### Installation
 
-1. Download the APK [here](http://bit.ly/RustDetectorAPK)
-2. Install the APK to your device
+Android Apps
+1. Download the APK [here](https://bit.ly/DikobulAPK)
+2. Download Marker [here]()
+3. Install the APK to your device
+
+
+Web Apps
+1. Access web melalui [link](http://gkvlurde.logart.id/) 
 
 
 
@@ -134,54 +134,28 @@ This is our background of why we want to create a corrosion detection system. Ou
 ## Usage
 
 How To Use This App
-1. Open the apps
-2. Upload photos
-3. Wait the apps detect the rust
-4. Download the result if you want
+1. Print marker atau gunakan device lain untuk menampilkan marker
+2. Buka aplikasi
+3. Scan marker menggunakan kamera
 
 You can follow this [demo](https://youtu.be/ERyjl43uAzk)
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-In general, we follow the "fork-and-pull" Git workflow.
-
-1. Fork the repo on GitHub
-2. Clone the project to your own machine
-3. Commit changes to your own branch
-4. Push your work back up to your fork
-5. Submit a Pull request so that we can review your changes
-
-NOTE: Be sure to merge the latest from "upstream" before making a pull request!
-
-
-
-<!-- LICENSE -->
-<!-- ## License
-
-Distributed under the MIT License. See `LICENSE` for more information. -->
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Aubert Oktaviantono - [LinkedIn](https://www.linkedin.com/in/auboktav/)  <br>
-Hendra Lingga Wijaya - [LinkedIn](https://www.linkedin.com/in/hendra-lingga-wijaya-955b80207/)  <br>
-Leny Arinda - [LinkedIn](https://www.linkedin.com/in/lenyarinda/)  <br>
+Dimas Surya Prayitna - [LinkedIn](https://www.linkedin.com/in/auboktav/)  <br>
+Fadli Alfa Rizki - [LinkedIn](https://www.linkedin.com/in/hendra-lingga-wijaya-955b80207/)  <br>
+Fauzi Rizky Utama - [LinkedIn](https://www.linkedin.com/in/lenyarinda/)  <br>
 M Rifqi Azkiya J - [LinkedIn](https://www.linkedin.com/in/mrazkiya/)  <br>
-Rudi Haryanto - [LinkedIn](http://www.linkedin.com/in/rudiharyanto/) <br>
-Winda Angelina Utama - [LinkedIn](https://www.linkedin.com/in/winda-angelina-utama/)  <br>
+Rifqi Fajri Abdullah - [LinkedIn](http://www.linkedin.com/in/rudiharyanto/) <br>
 
-Project Link: [https://github.com/windaangellina/RustDetector](https://github.com/windaangellina/RustDetector)
-
+Project Link: [https://github.com/mrazkiya/gkv-lurde](https://github.com/mrazkiya/gkv-lurde)
 
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Undraw Free Vectors](https://undraw.co/illustrations)
+
 
 
 
